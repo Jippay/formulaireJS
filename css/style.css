@@ -6,26 +6,46 @@
 body{
     width: 100%;
     text-align: center;
+    
 }
 
 
 .champForm{
     display : flex;
     flex-direction : column;
-    width : 300px;
+    width : 400px;
     margin : 10px auto;
+    text-align: center;
+    color: rgb(5, 5, 5);
+    background-color: rgba(119, 240, 89, 0.486);
+    border-radius: 5%;
 }
 
 .nomPrenom{
     display : flex;
     flex-direction : column;
+    justify-content: right;
     height : 50px;
+    margin: 20px 0;
 }
+.nom{
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+.prenom{
+    margin-top : 10px;
+    margin-left : 51px;
+}
+.birthday{
+    margin-left : 50px;
+}
+
 
 .emailMessage{
     display : flex;
     flex-direction : column;
-    margin : auto;
+    margin : 20px auto;
+    
 }
 
 .envoyer{
