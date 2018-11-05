@@ -1,0 +1,33 @@
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css" class="css">
+        <title>Formulaire Javascript</title>
+    </head>
+    <body>
+        <header>
+            <h1>Formulaire</h1>
+        </header>
+        <form class="formulaire">
+            <div class="champForm">
+                <div class="nomPrenom">
+                    <p><label>Nom</label><input type="text" class="nom" id="nom"></p>
+                    <p><label>Prenom</label><input type="text" class="prenom" id="prenom"></p>
+                </div>                
+                <p><label>Date de naissance</label><input type="date" name="date de naissance" class="birthday" ></p>
+                <p><label>Homme</label><input type="radio" name="sexe" class="male" value="Homme"></p>
+                <p><label>Femme</label><input type="radio" name="sexe" class="female" value="Femme"></p>
+                <div class="emailMessage">
+                    <p><label>E-mail</label><input type="text" name="email" class="email" placeholder="email"></p>
+                    <p><label>Votre message</label><input type="text" name="message" class="message"></p>
+                </div>
+            </div>
+            <input type="submit" class="envoyer" value="Envoyer">
+        </form>
+
+        <script src="script.js"></script>
+    </body>
+    </html>

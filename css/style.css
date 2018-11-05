@@ -1,0 +1,35 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+body{
+    width: 100%;
+    text-align: center;
+}
+
+
+.champForm{
+    display : flex;
+    flex-direction : column;
+    width : 300px;
+    margin : 10px auto;
+}
+
+.nomPrenom{
+    display : flex;
+    flex-direction : column;
+    height : 50px;
+}
+
+.emailMessage{
+    display : flex;
+    flex-direction : column;
+    margin : auto;
+}
+
+.envoyer{
+    width: 250px;
+    height: 20px;
+
+}
