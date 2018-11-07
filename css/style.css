@@ -6,6 +6,7 @@
 body{
     width: 100%;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -18,37 +19,47 @@ body{
     text-align: center;
     color: rgb(5, 5, 5);
     background-color: rgba(119, 240, 89, 0.486);
-    border-radius: 5%;
 }
 
 .nomPrenom{
     display : flex;
     flex-direction : column;
-    justify-content: right;
-    height : 50px;
-    margin: 20px 0;
+    justify-content: space-around;
+    height : 70px;
+    margin: 10px 10px;
 }
-.nom{
-    margin-left: 70px;
-    margin-bottom: 10px;
-}
-.prenom{
-    margin-top : 10px;
-    margin-left : 51px;
+
+
+/*champ date de naissance**************************************************/
+.dateTitre{
+    margin-bottom : 10px;
 }
 .birthday{
-    margin-left : 50px;
+    width : 300px;
+    margin : auto;
 }
 
+.sexe{
+    margin: 15px auto;
+}
+label{
+    margin : 10px;
+}
 
-.emailMessage{
-    display : flex;
-    flex-direction : column;
-    margin : 20px auto;
-    
+.email{
+    margin : 10px auto;
+    width : 300px;
+}
+
+textarea{
+    height: 5em;
+    width: 300px;
+    margin : auto;
+    margin-bottom : 10px;
 }
 
 .envoyer{
+    
     width: 250px;
     height: 20px;
 
