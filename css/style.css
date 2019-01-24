@@ -10,7 +10,12 @@ body{
     
 }
 
+h1{
+    font-size : 2.5em;
+    margin-top : 25px;
+}
 .champForm{
+    font-family: 'Roboto light', sans-serif;
     display : flex;
     flex-direction : column;
     width : 400px;
