@@ -10,7 +10,6 @@ body{
     
 }
 
-
 .champForm{
     display : flex;
     flex-direction : column;
@@ -21,6 +20,7 @@ body{
     background-color: rgba(119, 240, 89, 0.486);
 }
 
+/*Champ nom prenom***************************/
 .nomPrenom{
     display : flex;
     flex-direction : column;
@@ -28,7 +28,6 @@ body{
     height : 70px;
     margin: 10px 10px;
 }
-
 
 /*champ date de naissance**************************************************/
 .dateTitre{
@@ -39,25 +38,26 @@ body{
     margin : auto;
 }
 
+/*******Champ sexe***************/
 .sexe{
     margin: 15px auto;
 }
 label{
     margin : 10px;
 }
-
+/********Champ email*******/
 .email{
     margin : 10px auto;
     width : 300px;
 }
-
+/******Champ texte***********/
 textarea{
     height: 5em;
     width: 300px;
     margin : auto;
     margin-bottom : 10px;
 }
-
+/*******Submit*********/
 .envoyer{
     
     width: 250px;
